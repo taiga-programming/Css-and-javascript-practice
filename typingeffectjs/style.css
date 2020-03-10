@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  
+  padding-left: 100px;
+  display: flex;
+  color: #fff;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/joshua-earle-g1TWbj5XYb4-unsplash.jpg');
+  background-size: cover;
+}
+
+
+
+.odd {
+  padding-top: 230px;
+  text-align: center;
+}
+
+.typing {
+  padding-top: 230px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  width: 1px;
+  height: 5%;
+  border-right: 2px solid #fff;
+  animation: blink 0.5s infinite ease;
+  top: 39%;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.body2 {
+  /* background-color: black; */
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/joshua-earle-g1TWbj5XYb4-unsplash.jpg');
+  padding-left: 100px;
+  display: flex;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.body h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+
+}
