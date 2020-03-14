@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  background-color: #111;
+  font-family: arial;
+}
+
+.container {
+  min-width: 500px;
+  min-height: 350px;
+  border-radius: 20px;
+  position: relative;
+  transition: 1.5s ease-in-out;
+  /* transform is really needed because if you not add this */
+  transform-style: preserve-3d;
+}
+
+.container:hover {
+  transform: rotateY(180deg);
+}
+
+.side {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 50px;
+  color: white;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.content {
+  transform: translateZ(50px) scale(0.8);
+  line-height: 1.5em;
+}
+
+.content h1 {
+  position: relative;
+  font-size: 20px;
+  font-family: arial;
+}
+
+
+/*front */
+
+.front {
+  z-index: 2;
+  background-image: url(./img/castle-park-4500168_640.jpg);
+  background-size: cover;
+  background-size: 100vh;
+  color: white;
+}
+
+
+/* background section */
+
+
+.back {
+  background-color: #333;
+  transform: rotateY(180deg);
+  z-index: 0;
+  padding-top: 10px;
+  background: #111;
+  background-size: cover;
+}
+
+.back h1 {
+  margin: 0;
+}
+
+form label, form input {
+  display: block;
+}
+
+form input, form textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+
+form label {
+  margin: 15px 0;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: auto;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border: 3px solid white;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.content h1 {
+  position: relative;
+  font-size: 20px;
+}
+.content h1::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  height: 3px;
+  background-color: white;
+  width: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
