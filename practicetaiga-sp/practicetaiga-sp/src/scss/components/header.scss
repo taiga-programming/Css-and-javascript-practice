@@ -1,0 +1,70 @@
+.mystyle {
+  background: red;
+}
+
+body {
+  background: #fff;
+ 
+
+  .header {
+    background-color:rgba(#fffffc,0.5);
+    min-width: 1050px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    @media screen and (max-width:767px) {
+      min-width: initial;
+      
+    }
+    .header__container {
+      width: 1050px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      @media screen and (max-width:767px) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        
+      }
+    }
+
+      &__logo {
+        margin: 0;
+        padding: 0;
+      @media screen and (max-width:767px) {
+        // padding-left: 24px;
+        width: 47vw;
+        }
+      }
+      &__switch {
+      display: none;
+
+      @media screen and (max-width:767px) {
+        display: block;
+        }
+      }
+      .header__contact  {
+          padding-top: 25px;
+          width: 775px;
+          // width: 566px;
+          height: 88px;
+          // display: flex;
+          // align-items: center;
+          // justify-content: flex-end;
+          @media screen and (max-width:767px) {
+            display: none;
+          }
+          .header__contact-container {
+            display: flex;
+            align-items: flex-end;
+            justify-content:flex-end;
+            width: 600px;
+            width: 710px;
+            height:40px;
+      }
+    }
+  }
+} 

@@ -1,0 +1,315 @@
+doctype html
+html(lang="en")
+  head
+    title Jade
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    script(src="src/js/openmenu.js")
+  body
+    .sp-nav
+      p.close-button(onclick="myFunction2();") 
+        img(src="/src/img/closeicon.png", alt="picture")
+      .sp-nav-div
+        ul.sp-nav-links
+          li.nav__item2: a(href="service.html" target="_blank") Home
+          li.nav__item2: a(href="service.html" target="_blank") Service 
+          li.nav__item2: a(href="service.html" target="_blank") Other
+          li.nav__item2: a(href="service.html" target="_blank") Plan
+          li.nav__item2: a(href="service.html" target="_blank") Support 
+          li.nav__item2: a(href="service.html" target="_blank") Company
+    .header
+      .header__container
+        .header__logo
+          h1.logo 
+            p.logo__text ホームページ制作は聖富な制作のアップワード
+            img.logo__image(src="/src/img/logo.png" alt="picture")
+        div
+          .header__contact
+            div.header__contact-container
+              button.btn.btn--phone
+                img.btn__icon(src="/src/img/telephone.png" alt="picture")
+                div
+                  p.btn__number 03-5026-4652
+                  p.btn__text 平日受付時間 午前9:00~午後18:00
+              button.btn
+                img.btn__icon(src="/src/img/mail.png" alt="picture")
+                p.btn__text メールでお問い合わせ
+            .header__navigation
+              nav.nav
+                ul.nav__list
+                  li.nav__item.nav__item--home: img(src="/src/img/house.png" alt="picture")
+                  li.nav__item: a(href="service.html" target="_blank") service
+                  li.nav__item: a(href="Other.html" target="_blank") Other
+                  li.nav__item: a(href="plan.html" target="_blank") Plan
+                  li.nav__item: a(href="support.html" target="_blank") Support
+                  li.nav__item: a(href="company.html" target="_blank") Company
+        .header__switch 
+          div.switch(onclick="myFunction()")
+            .switch__line--1 
+            .switch__line--2
+            .switch__line--3
+            p.switch__line--4 MENU
+    .banner
+    .section.section--binding-target
+      h2.section__title BINDING TARGET  
+      .section__content
+        .binding-target
+          ul.binding-target__list
+            li.binding-target__item
+              .binding-target__square
+                img.binding-target__img--1(src="/src/img/wanda_01.png" alt="picture")
+                p.binding-target__text ホームページって #[br] いくらで作れるの?
+            li.binding-target__item
+              .binding-target__square
+                img.binding-target__img--2(src="/src/img/wanda_02.png" alt="picture")
+                p.binding-target__text ブランディングしたい!
+            li.binding-target__item
+              .binding-target__square
+                img.binding-target__img--3(src="/src/img/wanda_03.png" alt="picture")
+                p.binding-target__text 採用したい
+            li.binding-target__item
+              .binding-target__square
+                img.binding-target__img--4(src="/src/img/wanda_04.png" alt="picture")
+                p.binding-target__text 他社と差別化して#[br] 集客を出したい! 
+    .section.section--goal
+      h2.section__title10 GOAL
+      .section__content
+        .goal
+          p.goal__text ホームページの最大活用はゴール設定から始まります。#[br] 企画からUI・UX設計、動画撮影から制作まですべて社内で構築し、#[br.pc--none]クライアント様の要望の実現をお手伝いします。
+    .section.section--works
+      h2.section__title2 works
+      .section__content 
+        .works
+          ul.works__list
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text 中特グループ 様
+              img.works__img(src="/src/img/chutoku.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text  株式会社たくみ 様
+              img.works__img(src="/src/img/takumi.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text  株式会社富洋組 様
+              img.works__img(src="/src/img/screencapture-fuyougumi-2018-10-23-18_37_36.png" alt="picture")
+            li.works__item
+              .works__backdrop 
+              .works__square
+                p.works__text 野毛手形 様
+              img.works__img(src="/src/img/noge.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text 株式会社サンリ 様
+              img.works__img(src="/src/img/sanri.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text  COOP 様
+              img.works__img(src="/src/img/mirai.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text シモツトランスポート株式会社 様
+              img.works__img(src="/src/img/shimotsu.png" alt="picture")
+            li.works__item
+              .works__backdrop
+              .works__square
+                p.works__text AEON RENTAL 様
+              img.works__img(src="/src/img/aeonsquare.png" alt="picture")
+          .works__btn 
+            .btn
+              .btn__text  もっと見る　▶
+    .section.section--news
+      h2.section__title3 NEWS
+      .section__content
+        .news
+          ul.news__list
+            li.news__item
+              .news__img--test
+                img.news__img(src="/src/img/ryoji-iwata.jpg" alt="picture")
+                .news__logo
+                  p.news__text NEWS!
+              .news__item2
+                p.news__time 2018.00/00
+                a.news__linktag--1(href="#") web製作
+                p.news__text テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキス  
+            li.news__item
+              .news__img--test
+                img.news__img(src="/src/img/ryoji-iwata.jpg" alt="picture")
+                .news__logo
+                  p.news__text NEWS!
+              .news__item2
+                p.news__time 2018.00/00
+                a.news__linktag--2(href="#") プロモーション
+                p.news__text テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキス  
+            li.news__item
+              .news__img--test
+                img.news__img(src="/src/img/ryoji-iwata.jpg" alt="picture")
+                .news__logo
+                  p.news__text NEWS!
+              .news__item2
+                p.news__time 2018.00/00
+                a.news__linktag--3(href="#") company
+                p.news__text テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキス  
+          .news__btn 
+            .btn
+              .btn__text  もっと見る　▶   
+    .section.section--feature
+      h2.section__title--4 FEATURE
+      .section__content
+        .feature
+          p.feature__text--1  アップワードは創業当初、プロモーションを中心に#[br.pc--none]スタートさせて頂きました。#[br]今も多くのお客様のプロモーションをさせて頂いておりますが、#[br]お客様から頂いた制作依頼の要望を叶えるために作った#[br.pc--none]制作事業が珠玉つなぎのようにご紹介を頂き、#[br]今のアップワードになっております。#[br]どんなにきれいなホームページも、#[br.pc--none]成果につながらなければ価値にならない。#[br]小さな力でも必ず役に立つ、仕事のため、#[br.pc--none]マーケティングから制作、#[br] プロモーションと常に世の中の流れを読み、#[br.pc--none]最新技術に挑戦し続け成果につなげていきます。
+    .contact
+      a.contact__btn.contact__btn--1(href="#")
+        div
+          p.ptag--1 03-5026-4652
+          p.ptag--2 午前9:00~午後18:00
+        img.adjust1(src="/src/img/phone2.png" alt="picture")
+      a.contact__btn.contact__btn--2(href="#")  
+        div
+          p.ptag--3 メールでお問い合わせ
+          p.ptag--4 MAIL CONTACT
+        img.adjust2(src="/src/img/mail2.png" alt="picture")
+    .footer
+      .footer__logo
+        .footer--left
+          img.imagination(src="/src/img/logo.png" alt="picture")
+          p.footer__navigation--1 株式会社アップワード
+          p.footer__navigation--2 〒110-0015 東京都台東区東上野3-13-2 AYビル2F
+        .footer--right
+          table.fotter__table
+            tr.fotter__list
+              th
+                a(href="#").footer__tag--1a TOP
+              th
+                .footer__tag--2a 目的選ぶ
+              th  
+                .footer__tag--3a 料金プラン
+              th 
+                .footer__tag--4a サポート体制 
+              th
+                .footer__tag--5a 企業概要
+              th
+                .footer__tag--6a 
+                
+            tr.fotter__list2
+              td 
+              td
+                a(href="#").footer__tag--1 ホームページ
+              td
+                a(href="#").footer__tag--2 ホームページ料金
+              td
+                a(href="#").footer__tag--3  製作の流れ
+              td
+                a(href="#").footer__tag--4 会社概要  
+            tr.fotter__list2
+              td
+              td
+                a(href="#").footer__tag--1 スマートフォン対応
+              td
+                a(href="#").footer__tag--2 スマートフォン対応料金
+              td
+                a(href="#").footer__tag--3 無料診断
+              td
+                a(href="#").footer__tag--4 トップメッセージ
+            tr.fotter__list2
+              td
+              td
+                a(href="#").footer__tag--1 レスポンシブ対応
+              td
+                a(href="#").footer__tag--2 レスポンシブ対応料金
+              td 
+                a(href="#").footer__tag--3 よくある質問
+              td
+                a(href="#").footer__tag--4  スタッフ紹介
+            tr.fotter__list2
+              td
+              td
+                a(href="#").footer__tag--1 ランディンクページ
+              td
+                a(href="#").footer__tag--2 ランディンクページ料金
+            tr.fotter__list2
+              td
+              td
+                a(href="#").footer__tag--1 パララックスデザイン
+              td
+                a(href="#").footer__tag--2 パララックスデザイン料金
+              td
+              td
+                a(href="#").footer__tag--4 サイトマップ
+            tr.fotter__list2
+              td
+              td
+                a(href="#").footer__tag--1 ショッピングサイト
+              td
+                a(href="#").footer__tag--2 ショッピングサイト料金
+              td
+              td 
+                a(href="#").footer__tag--4 プライバシーポリシー
+      p.footer__tag Copyright © UpWard All right reserved.
+    .footer2
+      ul.footer2__list
+        li.footer2__item
+          p.footer2__text TOP
+        li.footer2__item        
+          p.footer2__text 製作実績
+        li.footer2__item  
+          p.footer2__text 製作料金プラン
+        li.footer2__item  
+          p.footer2__text 製作料金プラン
+        li.footer2__item  
+          p.footer2__text ホームページの制作
+        li.footer2__item  
+          p.footer2__text ホームページ制作の流れ
+        li.footer2__item  
+          p.footer2__text ホームぺージっていくらで作れるの?
+        li.footer2__item  
+          p.footer2__text ブランディングしたい！
+        li.footer2__item  
+          p.footer2__text 採用したい
+        li.footer2__item  
+          p.footer2__text 他社と差別化して集客したい！
+        li.footer2__item  
+          p.footer2__text スタッフ
+        li.footer2__item  
+          p.footer2__text よくある質問
+        li.footer2__item  
+          p.footer2__text 代表メッセージ
+        li.footer2__item  
+          p.footer2__text 会社概要
+        li.footer2__item  
+          p.footer2__text プライバシーポリシー
+    .footer3
+      .footer3__container
+        .footer3__right
+          img.footer3__img--1(src="/src/img/logo.png" alt="picture")
+        .fotter3__left
+          div
+            p.footer3__text--1 株式会社アップワード
+            p.footer3__text--2 〒110-0015 東京都台東区東上野3-13-2 AYビル2F
+      .footer3__bellow
+        p.footer3__text Copyright © UpWard All right reserved.
+              
+
+
+
+
+
+
+    
+
+      
+    
+    
+    
+
+
+
+
+
+

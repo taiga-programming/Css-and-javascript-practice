@@ -1,0 +1,117 @@
+.contact {
+    min-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    @media screen and (max-width:767px) {
+     display: block;
+     flex-direction: column;
+     margin: 0 auto;
+     padding: 0 auto ;
+     width: 100%;
+     min-width: initial;
+     
+    }
+
+    .contact__btn {
+     width: 505px;
+     height: 120px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: #fff;
+
+     @media screen and (max-width:767px) {
+        width: 89%;
+        height: 100px;
+        margin-left: 5%;
+        // margin: auto;
+        
+       }
+
+      &--1 {
+        background: #B3B3B3;
+        margin-right: 30px;
+      @media screen and (max-width:767px) {
+          margin-bottom: 10px;
+      }
+}
+
+     &--2 {
+        background: #CD282D;
+     }
+
+    .ptag--1 {
+        font-size: 25px;
+        margin: 0;
+        padding-bottom: 7px;
+        font-family: 'YaHei';
+    
+    @media screen and (max-width:767px) {
+        font-size: 7vw;
+        text-align: center;
+        letter-spacing: 29x;
+        padding-top: 5px;
+
+    }
+  }
+    .ptag--2 {
+        font-size: 16px;
+        margin: 0; 
+        font-family: 'yugothil';
+
+     @media screen and (max-width:767px) {
+        font-size: 4vw;
+        text-align: center;
+        letter-spacing: 3px;
+        padding-bottom:0;
+
+    }
+  }
+
+    .adjust1 {
+        padding-left: 44px;
+        width: 56px;
+        height: 44px;
+    }
+
+    .ptag--3 {
+        font-size: 16px;
+        margin: 0;  
+        font-family: 'yugothil';
+      
+      @media screen and (max-width:767px) {
+        font-size: 4vw;
+        margin: 0;
+        letter-spacing: 5px;
+        padding-top:8px;
+      
+      }         
+    }
+
+    .ptag--4 {
+        font-size: 25px;
+        margin: 0; 
+        font-family: 'YaHei';
+      @media screen and (max-width:767px) {
+        font-size: 6vw;
+        margin: 0;
+        padding-top: 7px;
+        letter-spacing: 2px;
+        padding-bottom:3px;
+
+      }      
+    } 
+
+    .adjust2 {
+        width: 49px;
+        height: 40px;
+        padding-left: 44px;
+    }
+  }
+}
+
