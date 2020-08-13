@@ -1,0 +1,131 @@
+.section {
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'YaHei';
+  }
+  &__title2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'YaHei';
+  }
+
+  &__title3 {
+    font-size: 30px;
+    text-align: center; 
+    font-family: 'YaHei';
+
+    @media screen and (max-width:767px) {
+     margin-bottom: 50px;
+    }
+    
+  }
+
+  &__title10 {
+    color: #1A1A1A;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 46px;
+        font-family: 'YaHei';
+
+    @media screen and (max-width:767px) {
+     margin-bottom: 24px;
+    }
+  }
+
+  &--binding-target {
+    background: #cd282d;
+    padding-top: 23px;
+    min-width: 1080px;
+   
+
+    @media screen and (max-width:767px) {
+      min-width: initial;
+
+  }
+}
+
+  &--goal {
+    background: #fff;
+    padding-top: 55px;
+    padding-bottom: 96px;
+    min-width: 1080px;
+    @media screen and (max-width:767px) {
+    padding-bottom: 70px;
+    margin: 0;
+    padding-top: 50px;
+    min-width: initial;
+  }
+}
+
+  &--works {
+    background:#F0BEC0;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    min-width: 1080px;
+    //  width: 1085px;
+  
+    @media screen and (max-width:767px) {
+      min-width: initial;
+  }
+}
+
+  &--news {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 36px;
+    min-width: 1080px ;
+    @media screen and (max-width:767px) {
+     padding-top: 15px;
+     padding-bottom: 83px;
+     min-width: initial;
+    }
+  }
+
+  &--feature {
+    padding-top: 20px;
+    padding-bottom: 154px;
+    background-image: url("/src/img/agathe-marty-660363-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1080px;
+    
+
+    @media screen and (max-width:767px) {
+     padding-bottom: 96px;
+     min-width: initial;
+     }
+
+    &::before {
+      content: "";
+      background-color: black;
+      opacity: 0.3;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+    }
+  }
+ 
+  &__title--4 {
+  font-size: 53px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 119px;
+  margin: 0;
+  font-family: 'YaHei';
+  @media screen and (max-width:767px) {
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    top: 45px;
+   }
+  }
+}

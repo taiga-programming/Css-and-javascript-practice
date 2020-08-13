@@ -1,0 +1,12 @@
+ .banner{
+     background-image: url("/src/img/backgroundimg.jpg");
+     min-width: 1080px;
+     height: 765px;
+     background-size: 2110px;
+     background-repeat: no-repeat;  
+     background-position: center 62%;
+
+    @media screen and (max-width:767px) {
+      min-width: initial;
+    }
+  }

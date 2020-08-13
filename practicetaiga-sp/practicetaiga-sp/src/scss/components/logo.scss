@@ -1,0 +1,21 @@
+.logo {
+
+  @media screen and (max-width:767px) {
+  
+  }
+    .logo__image { 
+     width: 100%;
+     @media screen and (max-width:767px) {
+      padding-top: 8px;
+  }
+}
+    .logo__text {
+      font-family: 'ExLight';
+      font-size: 11px;
+      margin: 0;
+      @media screen and (max-width:767px) {
+        font-size: 2vw;
+    }
+     
+  }
+}
